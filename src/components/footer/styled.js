@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const StyledFooter = styled.footer `
     width: 100%;
     min-width: 300px;
-    height: 130px;
-    background-color: #782600;
+    height: 50px;
+    background-color: #250048;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items:  center;
     font-family: 'Manrope', sans-serif;
     color: white;
 `
@@ -15,5 +15,6 @@ export const StyledFooter = styled.footer `
 export const StyledCopyright = styled.p `
     margin: 0;
     padding: 0;
+    font-size: 12px;
     margin-bottom: 5px;
 `

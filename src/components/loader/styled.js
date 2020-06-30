@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const Loading = styled.text `
-    font-size: 7px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
 `
@@ -16,12 +16,10 @@ export const Triangle = styled.polygon`
 `
 
 export const LoadingContainer = styled.div `
-    width: 100vw;
-    height: 100vh;
+    width: 95vw;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0; */
 `

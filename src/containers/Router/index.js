@@ -2,7 +2,7 @@ import React from "react";
 import { ConnectedRouter } from "connected-react-router";
 import { Switch, Route } from "react-router-dom";
 import HomePage from "../HomePage";
-import CategoryPage from "../CategoryPage"
+import CategoryPage from "../CategoryJokePage"
 
 
 export const routes = {

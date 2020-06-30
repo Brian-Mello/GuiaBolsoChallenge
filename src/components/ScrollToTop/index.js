@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { ScrollToTopContainer, StyledExpandLessIcon } from './styled';
 
 export class ScrollToTop extends React.Component{
@@ -12,11 +12,11 @@ export class ScrollToTop extends React.Component{
 
     render(){
         return(
-            <Fragment>
+            <>
                 <ScrollToTopContainer>
                   <StyledExpandLessIcon onClick={this.handleScrollToTop}/>
                 </ScrollToTopContainer>
-            </Fragment>
+            </>
         )
     }  
 }
