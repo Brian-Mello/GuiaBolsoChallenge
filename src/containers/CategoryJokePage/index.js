@@ -39,7 +39,7 @@ class CategoryJokePage extends React.Component {
     render() { 
         const { backToHomePage } = this.props
         
-        const { value, categories, id, url, icon_url, created_at, updated_at } = this.props.selectedJoke
+        const { value, categories } = this.props.selectedJoke
 
         let jokeIsReady
 
