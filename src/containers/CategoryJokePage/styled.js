@@ -15,7 +15,7 @@ export const MainCategoryPage = styled.main `
     font-family: 'Manrope', sans-serif;
     @media (max-width: 450px){
         padding: 0 20px;
-        min-height: 80vh;
+        min-height: 83vh;
     }
 `
 

@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const StyledBody = styled.div `
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+`
+
 export const StyledH1 = styled.h1 `
     color: black;
     @media (max-width: 450px){
@@ -9,6 +16,7 @@ export const StyledH1 = styled.h1 `
 
 export const StyledP = styled.p `
     color: black;
+    font-weight: bold;
     @media (max-width: 450px){
         font-size: 18px;
     }
@@ -16,7 +24,8 @@ export const StyledP = styled.p `
 
 export const StyledH2 = styled.h2 `
     color: black;
+    font-weight: bold;
     @media (max-width: 450px){
-        font-size: 16px;
+        font-size: 18px;
     }
 `
