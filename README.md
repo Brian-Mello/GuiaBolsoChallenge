@@ -5,7 +5,7 @@ Projeto fron-end criado pela guia bolso para desenvolvedores Front-end
 
 O Front-end web desse projeto teve seus arquivos em divididos seis seções. Foram divididos em Components onde são guardados os inputs, cards de post, cards de comentários e etc. Nos Containers são as páginas que "pensam" em união aos componentes para se mostrar na tela. As Actions armazenam as requisições feitas pela API. As Pasta Images armazenam as imagens utilizadas nos cards de categorias. O reducer salva as informações que foram requisitadas nas actions permitindo serem usadas globalmente no projeto e o Style armazena a estilização global do projeto.
 
-## Técnologias e serviços utilizados
+## Tcnologias e serviços utilizados
 
 Para a conclusão desse projeto foi utilizado: ReactJs, Redux, React-router, javascript, HTML, CSS, Material-ui, github, styled-components e o gerenciamento de pacotes foi feito utilizando NodeJS(yarn e npm).
 
