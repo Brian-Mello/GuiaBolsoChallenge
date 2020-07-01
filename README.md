@@ -15,13 +15,13 @@ Esse projeto foi criado com React/Redux e tem como objetivo consumir os dados fo
 
 ## Instruções para rodar
 
-Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositório utilize via ***terminal*** o comando:
+Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositório utilize via ***TERMINAL*** o comando:
 
 ***git clone https://github.com/Brian-Mello/GuiaBolsoChallenge.git***
 
-após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via ***terminar*** e utilize o comando:
+após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via ***TERMINAL*** e utilize o comando:
 
-***npm install ou npm i ***
+***npm install ou npm i***
 
 e para rodar o projeto após a instalação utilize o comando: 
 
