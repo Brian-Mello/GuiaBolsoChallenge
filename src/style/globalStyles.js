@@ -9,8 +9,9 @@ export const StyledBody = styled.div `
 
 export const StyledH1 = styled.h1 `
     color: black;
+    margin: 0;
     @media (max-width: 450px){
-        font-size: 20px;
+        font-size: 24px;
     }
 `
 
@@ -18,7 +19,7 @@ export const StyledP = styled.p `
     color: black;
     font-weight: bold;
     @media (max-width: 450px){
-        font-size: 18px;
+        font-size: 20px;
     }
 `
 

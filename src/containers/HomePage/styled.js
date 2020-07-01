@@ -12,14 +12,14 @@ export const MainHomePage = styled.main `
     align-items: center;
     font-family: 'Manrope', sans-serif;
     @media (max-width: 450px){
-        padding: 0;
+        padding: 10px;
     }
 `
 
 export const AboutThePageSection = styled.section `
     width: 100%;
     min-width: 300px;
-    min-height: 50%;
+    height: 150px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ export const AboutThePageSection = styled.section `
     border-bottom: 1px solid #aeacaf;
     font-size: 25px;
     @media (max-width: 450px){
-        padding: 20px 40px;
+        padding: 10px 20px;
     }
 `
 
