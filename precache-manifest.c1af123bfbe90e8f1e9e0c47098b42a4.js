@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f2d0dde2e518dc52a8e78368e1e25be",
+    "revision": "a54ea0218eb61bdb59d93bdb93aedb86",
     "url": "/GuiaBolsoChallenge/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GuiaBolsoChallenge/static/js/2.4f54df7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d71bbf71cd7e0ba6457",
-    "url": "/GuiaBolsoChallenge/static/js/main.268a5377.chunk.js"
+    "revision": "438524fb2da2f2437302",
+    "url": "/GuiaBolsoChallenge/static/js/main.eaae57e8.chunk.js"
   },
   {
     "revision": "6d1673b9d8376aacb99f",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GuiaBolsoChallenge/static/media/fashion.3f138986.png"
   },
   {
-    "revision": "eb98c595995dd3982ac2c92fd798ddce",
-    "url": "/GuiaBolsoChallenge/static/media/food.eb98c595.jpg"
+    "revision": "297a384d20fe39bb585ca9f10f325188",
+    "url": "/GuiaBolsoChallenge/static/media/food.297a384d.png"
   },
   {
     "revision": "b4de1b82e64972c1d2042bdc27493006",
     "url": "/GuiaBolsoChallenge/static/media/history.b4de1b82.jpg"
   },
   {
-    "revision": "36a0ddd30aea36f0a4849b8a5f315292",
-    "url": "/GuiaBolsoChallenge/static/media/money.36a0ddd3.jpg"
+    "revision": "ba3085003e8991a5cbee71a4f3edfd31",
+    "url": "/GuiaBolsoChallenge/static/media/money.ba308500.png"
   },
   {
-    "revision": "b57d951b9e48b42c612e7500c30e56dc",
-    "url": "/GuiaBolsoChallenge/static/media/movie.b57d951b.jpg"
+    "revision": "82c380570b828fccd9e2266d94ddfd7f",
+    "url": "/GuiaBolsoChallenge/static/media/movie.82c38057.jpg"
   },
   {
     "revision": "6bc54cedf40cc918184a453b0226d92d",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GuiaBolsoChallenge/static/media/politic.b9e3a1c8.jpg"
   },
   {
-    "revision": "e75b106700807af289cd9f4a1b1f12d7",
-    "url": "/GuiaBolsoChallenge/static/media/religion.e75b1067.png"
+    "revision": "fc47a1dc4cb2f6d409eefb794615c729",
+    "url": "/GuiaBolsoChallenge/static/media/religion.fc47a1dc.png"
   },
   {
     "revision": "ebf917dc409e9f9943f1b10700f23faa",
     "url": "/GuiaBolsoChallenge/static/media/science.ebf917dc.jpg"
   },
   {
-    "revision": "f5d31e267e83c62148a74589bd625602",
-    "url": "/GuiaBolsoChallenge/static/media/sport.f5d31e26.jpg"
+    "revision": "b1a166da4e89053216385e2694bde6de",
+    "url": "/GuiaBolsoChallenge/static/media/sport.b1a166da.jpg"
   },
   {
     "revision": "03cfaa4ed428534f2a6e0a9faabdcd99",

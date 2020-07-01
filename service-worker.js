@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GuiaBolsoChallenge/precache-manifest.89129a1c8cfb8e6f22c39fedb32f36dc.js"
+  "/GuiaBolsoChallenge/precache-manifest.c1af123bfbe90e8f1e9e0c47098b42a4.js"
 );
 
 self.addEventListener('message', (event) => {
