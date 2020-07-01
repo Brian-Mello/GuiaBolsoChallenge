@@ -1,9 +1,9 @@
 # GuiaBolsoChallenge
-Projeto fron-end criado para guia bolso para desenvolvedores Front-end
+Projeto Frontend criado para guia bolso para desenvolvedores Front-end
 
 ## Stack
 
-O Front-end web desse projeto teve seus arquivos em divididos seis seções. Foram divididos em Components onde são guardados os inputs, cards de post, cards de comentários e etc. Nos Containers são as páginas que "pensam" em união aos componentes para se mostrar na tela. As Actions armazenam as requisições feitas pela API. As Pasta Images armazenam as imagens utilizadas nos cards de categorias. O reducer salva as informações que foram requisitadas nas actions permitindo serem usadas globalmente no projeto e o Style armazena a estilização global do projeto.
+O Frontend web desse projeto teve seus arquivos em divididos seis seções. Foram divididos em Components onde são guardados os inputs, cards de post, cards de comentários e etc. Nos Containers são as páginas que "pensam" em união aos componentes para se mostrar na tela. As Actions armazenam as requisições feitas pela API. As Pasta Images armazenam as imagens utilizadas nos cards de categorias. O reducer salva as informações que foram requisitadas nas actions permitindo serem usadas globalmente no projeto e o Style armazena a estilização global do projeto.
 
 ## Tcnologias e serviços utilizados
 
