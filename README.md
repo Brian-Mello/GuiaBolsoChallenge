@@ -1,5 +1,5 @@
 # GuiaBolsoChallenge
-Projeto fron-end criado pela guia bolso para desenvolvedores Front-end
+Projeto fron-end criado pera guia bolso para desenvolvedores Front-end
 
 ## Stack
 
