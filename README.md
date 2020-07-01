@@ -5,7 +5,7 @@ Projeto fron-end criado para guia bolso para desenvolvedores Front-end
 
 O Front-end web desse projeto teve seus arquivos em divididos seis seções. Foram divididos em Components onde são guardados os inputs, cards de post, cards de comentários e etc. Nos Containers são as páginas que "pensam" em união aos componentes para se mostrar na tela. As Actions armazenam as requisições feitas pela API. As Pasta Images armazenam as imagens utilizadas nos cards de categorias. O reducer salva as informações que foram requisitadas nas actions permitindo serem usadas globalmente no projeto e o Style armazena a estilização global do projeto.
 
-## Técnologias e serviços utilizados
+## Tcnologias e serviços utilizados
 
 Para a conclusão desse projeto foi utilizado: ReactJs, Redux, React-router, javascript, HTML, CSS, Material-ui, github, styled-components e o gerenciamento de pacotes foi feito utilizando NodeJS(yarn e npm).
 
@@ -15,10 +15,11 @@ Esse projeto foi criado com React/Redux e tem como objetivo consumir os dados fo
 
 ## Instruções para rodar
 
-Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositório utilize via terminal o comando:
+Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositório utilize via ***TERMINAL*** o comando:
 
-git clone https://github.com/Brian-Mello/GuiaBolsoChallenge.git
+***git clone https://github.com/Brian-Mello/GuiaBolsoChallenge.git***
 
+<<<<<<< HEAD
 após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via terminal e utilize o comando:
 
 npm install ou npm i 
@@ -26,7 +27,16 @@ npm install ou npm i
 e para rodar o projeto após a instalação utilize o comando: 
 
 npm start ou npm run start
+=======
+após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via ***TERMINAL*** e utilize o comando:
+
+***npm install ou npm i***
+
+e para rodar o projeto após a instalação utilize o comando: 
+
+***npm start ou npm run start***
+>>>>>>> 45e6510081e47fd58a035ddc77b95566c211fce2
 
 ## Link para acesso da aplicação deployada
 
-link do chuck jokes: https://chuckjokes-guiabolso.netlify.app/
+link do chuck jokes: https://brian-mello.github.io/GuiaBolsoChallenge/
