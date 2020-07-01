@@ -23,3 +23,8 @@ export const LoadingContainer = styled.div `
     justify-content: center;
     align-items: center;
 `
+
+export const StyledSVG = styled.svg `
+    width: 50px;
+    height: 50px;
+`

@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyledHeader } from './styled';
+import { StyledHeader, PageName } from './styled';
 
 export function Header (props) {
     
     return (
         <StyledHeader>
-            <h1>Chuck Jokes</h1>
+            <PageName>Chuck Jokes</PageName>
         </StyledHeader>
     )
 }

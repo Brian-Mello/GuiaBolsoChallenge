@@ -2,13 +2,13 @@ import React from "react";
 import { connect } from "react-redux";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import { AboutThePageSection, JokesCategoryContainer } from './styled';
+import { AboutThePageSection, JokesCategoryContainer, MainHomePage } from './styled';
 import { getCategories } from '../../actions';
 import { push } from 'connected-react-router';
 import CategoryCard from '../../components/categoryCard';
 import Loader from '../../components/loader';
 import { imagesObject } from '../../images/imagesObject';
-import { MainComponent, StyledP, StyledH2, StyledH1 } from "../../style/globalStyles";
+import { StyledP, StyledH2, StyledH1 } from "../../style/globalStyles";
 import ScrollToTop from "../../components/ScrollToTop";
 
 export class HomePage extends React.Component {
@@ -56,7 +56,7 @@ export class HomePage extends React.Component {
         return(
           <>
             <Header/>
-            <MainComponent>
+            <MainHomePage>
                 <AboutThePageSection>
                     <StyledH1>Do You want to hear a Chuck Norries joke?</StyledH1>
                     <StyledP>Choose a category!</StyledP>
@@ -66,7 +66,7 @@ export class HomePage extends React.Component {
                     {showCategories}
                 </JokesCategoryContainer>
                 <ScrollToTop/>
-            </MainComponent>
+            </MainHomePage>
             <Footer/>
           </>
         )

@@ -15,7 +15,7 @@ export const CardComponent = styled.div `
         padding: 0;
     }
     @media (max-width: 450px){
-        width: 100%;
+        width: 90%;
         height: 290px;
         padding: 15px;
     }
@@ -62,7 +62,7 @@ export const CardFooter = styled.div `
 export const CardTitle = styled.p `
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bolder;
 `
 
@@ -76,5 +76,7 @@ export const StyledImg = styled.img `
 `
 
 export const StyledArrowForwardIosIcon = styled(ArrowForwardIosIcon) `
+    width: 15px;
+    height: 15px;
     color: white;
 `

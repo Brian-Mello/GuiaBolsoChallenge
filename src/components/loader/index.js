@@ -1,17 +1,17 @@
 import React from "react";
-import { Loading, Triangle, LoadingContainer } from "./styled";
+import { Loading, Triangle, LoadingContainer, StyledSVG } from "./styled";
 
 function Loader ( ) {
     return (
         <LoadingContainer>   
-            <svg width="50" height="50" viewBox="5 0 20 40">
+            <StyledSVG viewBox="5 0 20 40">
                 <Triangle 
                     fill="none" 
                     stroke="black" 
                     stroke-width="1"
                     points="16,1 32,32 1,32"
                 />
-            </svg>
+            </StyledSVG>
             <Loading>Loading</Loading>
         </LoadingContainer>
     )

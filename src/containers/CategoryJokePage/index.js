@@ -5,12 +5,13 @@ import { push } from 'connected-react-router';
 import { getAJoke } from '../../actions';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import { MainComponent, StyledH1 } from '../../style/globalStyles';
-import { CategoryDiv, StyledArrowBackIcon, StyledCachedIcon } from './styled';
+import { StyledH1 } from '../../style/globalStyles';
+import { MainCategoryPage, CategorySection, BackButtonSection, StyledArrowBackIcon, StyledCachedIcon, JokeSection, NewJokeButtonSection, ChuckNorrisImage, JokeChat } from './styled';
 import Button from '../../components/button';
 import Loader from '../../components/loader';
-import JokeCard from '../../components/jokeCard';
-
+import JokeBalloon from '../../components/jokeBalloon';
+import ChuckNorris from '../../images/ChuckNorris.jpg'
+import ScrollToTop from '../../components/ScrollToTop';
 
 class CategoryJokePage extends React.Component {
     constructor(props) {
@@ -36,7 +37,8 @@ class CategoryJokePage extends React.Component {
         getAJoke(getCategory)
     }
 
-    render() { 
+    render() {
+
         const { backToHomePage } = this.props
         
         const { value, categories } = this.props.selectedJoke
@@ -48,31 +50,39 @@ class CategoryJokePage extends React.Component {
         } else if (this.props.selectedJoke) {
             jokeIsReady = (
                 <>
-                    <CategoryDiv>
-                        <StyledH1>Category: {categories}</StyledH1>
+                    <BackButtonSection>
                         <Button
                             text={"Back"}
                             icon={(<StyledArrowBackIcon/>)}
                             onClick={backToHomePage}
                         />
-                    </CategoryDiv>
-                    <JokeCard
-                        joke={value }
-                    />
-                    <Button
-                        text={"New Joke"}
-                        icon={(<StyledCachedIcon/>)}
-                        onClick={this.handleGetANewJoke}
-                    />
+                    </BackButtonSection>
+                    <CategorySection>
+                        <StyledH1>Category: {categories}</StyledH1>
+                    </CategorySection>
+                    <JokeSection>
+                        <ChuckNorrisImage src={ChuckNorris}/>
+                        <JokeChat>
+                            <JokeBalloon joke={value}/>
+                        </JokeChat>
+                    </JokeSection>
+                    <NewJokeButtonSection>
+                        <Button
+                            text={"New Joke"}
+                            icon={(<StyledCachedIcon/>)}
+                            onClick={this.handleGetANewJoke}
+                        />
+                    </NewJokeButtonSection>
                 </>
             )
         }
         return ( 
             <>
                 <Header/>
-                <MainComponent>
+                <MainCategoryPage>
                     {jokeIsReady}
-                </MainComponent>
+                </MainCategoryPage>
+                <ScrollToTop/>
                 <Footer/>
             </>
          );

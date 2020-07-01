@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer `
     background-color: #250048;
     display: flex;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     font-family: 'Manrope', sans-serif;
     color: white;
 `
@@ -15,6 +15,6 @@ export const StyledFooter = styled.footer `
 export const StyledCopyright = styled.p `
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
 `

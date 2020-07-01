@@ -11,17 +11,19 @@ export const StyledHeader = styled.header`
     justify-content: center;
     align-items: center;
     background-color: #250048;
-    color: white;
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 20px;
-    transition: color 0.5s;
     :hover {
-        color: #ed4672;
         cursor: pointer;
     }
     @media (max-width: 800px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 15px;
     }
+`
+
+export const PageName = styled.h1 `
+    color: white;
 `
