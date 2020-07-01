@@ -89,6 +89,7 @@ export const JokeChat = styled.section `
     @media (max-width: 1100px){
         border-left: 4px inset #442212;
         height: 250px;
+        min-height: 250px;
         border-top: none;
         border-radius: 0 0 10px 10px ;
         width: 100%;
