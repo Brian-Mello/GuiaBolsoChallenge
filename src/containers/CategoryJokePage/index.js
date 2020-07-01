@@ -44,7 +44,7 @@ class CategoryJokePage extends React.Component {
 
         return ( 
             <>
-                <Header/>
+                <Header onClick={backToHomePage}/>
                 <MainCategoryPage>
                     <BackButtonSection>
                         <Button

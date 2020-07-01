@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 export const CardComponent = styled.div `
-    width: 200px;
+    width: 220px;
     height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     transition: all 0.5s;
     :hover {
         cursor: pointer;
@@ -35,7 +35,7 @@ export const CardBody = styled.div `
 
 export const CardHeader = styled.div `
     width: 100%;
-    height: 60%;
+    height: 70%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -46,7 +46,7 @@ export const CardHeader = styled.div `
 
 export const CardFooter = styled.div `
     width: 100%;
-    height: 40%;
+    height: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -62,7 +62,7 @@ export const CardFooter = styled.div `
 export const CardTitle = styled.p `
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
 `
 
@@ -76,7 +76,5 @@ export const StyledImg = styled.img `
 `
 
 export const StyledArrowForwardIosIcon = styled(ArrowForwardIosIcon) `
-    width: 15px;
-    height: 15px;
     color: white;
 `

@@ -5,7 +5,7 @@ export function Header (props) {
     
     return (
         <StyledHeader>
-            <PageName>Chuck Jokes</PageName>
+            <PageName onClick={props.onClick}>Chuck Jokes</PageName>
         </StyledHeader>
     )
 }

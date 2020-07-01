@@ -38,7 +38,7 @@ export const JokesCategoryContainer = styled.section `
     min-width: 300px;
     min-height: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
     justify-items: center;

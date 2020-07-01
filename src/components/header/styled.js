@@ -13,9 +13,6 @@ export const StyledHeader = styled.header`
     background-color: #250048;
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 20px;
-    :hover {
-        cursor: pointer;
-    }
     @media (max-width: 800px) {
         flex-direction: column;
         justify-content: center;
@@ -26,4 +23,8 @@ export const StyledHeader = styled.header`
 
 export const PageName = styled.h1 `
     color: white;
+    transition: color 0.5s;
+    :hover {
+        cursor: pointer;
+    }
 `

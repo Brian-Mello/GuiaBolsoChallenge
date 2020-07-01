@@ -10,6 +10,7 @@ import Loader from '../../components/loader';
 import { imagesObject } from '../../images/imagesObject';
 import { StyledP, StyledH2, StyledH1 } from "../../style/globalStyles";
 import ScrollToTop from "../../components/ScrollToTop";
+import { routes } from "../Router";
 
 export class HomePage extends React.Component {
     constructor(props) {
@@ -34,7 +35,7 @@ export class HomePage extends React.Component {
 
     render() {
 
-        const { categories } = this.props
+        const { categories, goToHomePage } = this.props
 
         let orderedCategories = categories.sort((a,b) => (a.categories > b.categories ? -1 : 1));
 
@@ -55,10 +56,10 @@ export class HomePage extends React.Component {
         }
         return(
           <>
-            <Header/>
+            <Header onClick={goToHomePage}/>
             <MainHomePage>
                 <AboutThePageSection>
-                    <StyledH1>Do You want to read a Chuck Norries joke?</StyledH1>
+                    <StyledH1>Do you want to read a Chuck Norries joke?</StyledH1>
                     <StyledP>Choose a category!</StyledP>
                 </AboutThePageSection>
                     <StyledH2>Joke Norries Categories</StyledH2>
@@ -79,7 +80,8 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
     getCategories: () => dispatch(getCategories()),
-    goToCategoryPage: (category) => dispatch(push (process.env.PUBLIC_URL + `/categories/${category}`))
+    goToCategoryPage: (category) => dispatch(push (process.env.PUBLIC_URL + `/categories/${category}`)),
+    goToHomePage: () => dispatch(push(routes.home))
 })
 
 export default connect(
