@@ -8,7 +8,6 @@ import Footer from '../../components/footer';
 import { StyledH1 } from '../../style/globalStyles';
 import { MainCategoryPage, CategorySection, BackButtonSection, StyledArrowBackIcon, StyledCachedIcon, JokeSection, NewJokeButtonSection, ChuckNorrisImage, JokeChat } from './styled';
 import Button from '../../components/button';
-import Loader from '../../components/loader';
 import JokeBalloon from '../../components/jokeBalloon';
 import ChuckNorris from '../../images/ChuckNorris.jpg'
 import ScrollToTop from '../../components/ScrollToTop';
@@ -43,13 +42,10 @@ class CategoryJokePage extends React.Component {
         
         const { value, categories } = this.props.selectedJoke
 
-        let jokeIsReady
-
-        if(this.props.selectedJoke === {}) {
-            jokeIsReady = (<Loader/>)
-        } else if (this.props.selectedJoke) {
-            jokeIsReady = (
-                <>
+        return ( 
+            <>
+                <Header/>
+                <MainCategoryPage>
                     <BackButtonSection>
                         <Button
                             text={"Back"}
@@ -73,14 +69,6 @@ class CategoryJokePage extends React.Component {
                             onClick={this.handleGetANewJoke}
                         />
                     </NewJokeButtonSection>
-                </>
-            )
-        }
-        return ( 
-            <>
-                <Header/>
-                <MainCategoryPage>
-                    {jokeIsReady}
                 </MainCategoryPage>
                 <ScrollToTop/>
                 <Footer/>
