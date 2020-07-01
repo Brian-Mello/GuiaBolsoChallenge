@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be43b812cfce9f9ab77f517caa1b17e6",
+    "revision": "f30abf53589442b67f4ee90698ea91f6",
     "url": "/GuiaBolsoChallenge/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GuiaBolsoChallenge/static/js/2.4f54df7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2cd47a25e38c20534c4",
-    "url": "/GuiaBolsoChallenge/static/js/main.33a7619c.chunk.js"
+    "revision": "0c3dc26942011ba423ba",
+    "url": "/GuiaBolsoChallenge/static/js/main.bfcb152d.chunk.js"
   },
   {
     "revision": "6d1673b9d8376aacb99f",
