@@ -25,7 +25,7 @@ após o clone do repositório é necessário instalar o node_modules. Para isso 
 
 e para rodar o projeto após a instalação utilize o comando: 
 
-***npm start*** ou npm ***run start***
+***npm start*** ou ***npm run start***
 
 ## Link para acesso da aplicação deployada
 
