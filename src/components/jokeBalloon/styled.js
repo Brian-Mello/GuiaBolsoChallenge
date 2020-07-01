@@ -14,8 +14,13 @@ export const Balloon = styled.div `
     @media (max-width: 1100px) {
         top: 28%;
         left: 36%;
-        min-width: 150px;
+        min-width: 80%;
         max-width: 280px;
         border-radius: 0 25px 25px 25px;
+    }
+    @media (max-width: 800px) {
+        top: 28%;
+        left: 36%;
+        max-width: 280px;
     }
 `

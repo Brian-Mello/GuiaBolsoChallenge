@@ -5,7 +5,8 @@ import CachedIcon from '@material-ui/icons/Cached';
 export const MainCategoryPage = styled.main `
     width: 100%;
     min-width: 300px;
-    min-height: 100vh;
+    height: 100%;
+    min-height: 690px;
     padding: 0 20px;
     background-color: #d8d8d8;
     display: flex;
@@ -15,7 +16,6 @@ export const MainCategoryPage = styled.main `
     font-family: 'Manrope', sans-serif;
     @media (max-width: 450px){
         padding: 0 20px;
-        min-height: 83vh;
     }
 `
 
@@ -44,9 +44,6 @@ export const JokeSection = styled.section `
     align-items: center;
     padding: 0 100px;
     transition: all 0.5s;
-    @media (max-width: 1200px){
-        height: 400px;
-    }
     @media (max-width: 1100px){
         flex-direction: column;
         padding: 0 60px;
@@ -76,7 +73,7 @@ export const ChuckNorrisImage = styled.img `
     @media (max-width: 450px){
         border-radius: 10px 10px 0 0;
         width: 100%;
-        height: 50%;
+        height: 60%;
     }
 `
 export const JokeChat = styled.section `
@@ -91,6 +88,7 @@ export const JokeChat = styled.section `
     }
     @media (max-width: 1100px){
         border-left: 4px inset #442212;
+        height: 250px;
         border-top: none;
         border-radius: 0 0 10px 10px ;
         width: 100%;
