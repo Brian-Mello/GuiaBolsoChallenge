@@ -21,11 +21,11 @@ Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositó
 
 após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via ***TERMINAL*** e utilize o comando:
 
-***npm install ou npm i***
+***npm install*** ou ***npm i***
 
 e para rodar o projeto após a instalação utilize o comando: 
 
-***npm start ou npm run start***
+***npm start*** ou npm ***run start***
 
 ## Link para acesso da aplicação deployada
 
