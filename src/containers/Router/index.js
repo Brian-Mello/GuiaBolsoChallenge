@@ -6,8 +6,8 @@ import CategoryPage from "../CategoryJokePage"
 
 
 export const routes = {
-  home: "/",
-  categoryPage: "/categories/:category"
+  home: process.env.PUBLIC_URL + '/',
+  categoryPage: process.env.PUBLIC_URL + '/categories/:category'
 };
 
 function Router(props) {

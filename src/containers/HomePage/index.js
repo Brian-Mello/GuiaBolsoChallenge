@@ -79,7 +79,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
     getCategories: () => dispatch(getCategories()),
-    goToCategoryPage: (category) => dispatch(push (`/categories/${category}`))
+    goToCategoryPage: (category) => dispatch(push (process.env.PUBLIC_URL + `/categories/${category}`))
 })
 
 export default connect(

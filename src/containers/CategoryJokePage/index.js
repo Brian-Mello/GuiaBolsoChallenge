@@ -83,7 +83,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
     backToHomePage: () => dispatch(push(routes.home)),
-    refreshJokePage: (category) => dispatch(push(`/categories/${category}`)),
+    refreshJokePage: (category) => dispatch(push(process.env.PUBLIC_URL + `/categories/${category}`)),
     getAJoke: (category) => dispatch(getAJoke(category))
 })
 
