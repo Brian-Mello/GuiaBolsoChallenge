@@ -19,15 +19,6 @@ Por ser um projeto ReactJS, há a necessidade do NodeJS. Para clonar o repositó
 
 ***git clone https://github.com/Brian-Mello/GuiaBolsoChallenge.git***
 
-<<<<<<< HEAD
-após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via terminal e utilize o comando:
-
-npm install ou npm i 
-
-e para rodar o projeto após a instalação utilize o comando: 
-
-npm start ou npm run start
-=======
 após o clone do repositório é necessário instalar o node_modules. Para isso entre no repositório via ***TERMINAL*** e utilize o comando:
 
 ***npm install ou npm i***
@@ -35,8 +26,8 @@ após o clone do repositório é necessário instalar o node_modules. Para isso 
 e para rodar o projeto após a instalação utilize o comando: 
 
 ***npm start ou npm run start***
->>>>>>> 45e6510081e47fd58a035ddc77b95566c211fce2
 
 ## Link para acesso da aplicação deployada
 
 link do chuck jokes: https://brian-mello.github.io/GuiaBolsoChallenge/
+
