@@ -58,7 +58,7 @@ export class HomePage extends React.Component {
             <Header/>
             <MainHomePage>
                 <AboutThePageSection>
-                    <StyledH1>Do You want to hear a Chuck Norries joke?</StyledH1>
+                    <StyledH1>Do You want to read a Chuck Norries joke?</StyledH1>
                     <StyledP>Choose a category!</StyledP>
                 </AboutThePageSection>
                     <StyledH2>Joke Norries Categories</StyledH2>
